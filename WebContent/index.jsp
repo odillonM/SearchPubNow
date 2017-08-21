@@ -32,7 +32,7 @@
                 <nav id="nav">
                     <ul>
                         <li class="current"><a href="index.jsp">Home</a></li>
-                        <li class="current"><a href="#apresent">Apresentação</a></li>
+                        <li class="current"><a href="bares.jsp">Veja os bares agora!</a></li>
 
                         <li>
                             <a href="#">Cadastre-se</a>
