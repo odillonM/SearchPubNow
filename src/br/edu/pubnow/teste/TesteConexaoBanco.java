@@ -7,9 +7,9 @@ import br.edu.pubnow.conexaoBanco.ConnectionFactory;
 
 public class TesteConexaoBanco {
 
-	public static void main(String[] args)throws SQLException {
-		Connection conexao = ConnectionFactory.getInstance().getConnection();
-		conexao.close();
+	public static void main(String[] args) {
+		
+		
 
 	}
 

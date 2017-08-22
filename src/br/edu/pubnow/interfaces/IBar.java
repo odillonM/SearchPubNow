@@ -1,6 +1,9 @@
 package br.edu.pubnow.interfaces;
 
+import java.util.List;
+
 import br.edu.pubnow.entidades.Bar;
+
 
 public interface IBar {
 	
@@ -8,5 +11,6 @@ public interface IBar {
 	void alterarBar(Bar bar);
 	void excluirBar(int id);
 	Bar consultarBar(int id);
+	List<Bar> listarBar();
 
 }
