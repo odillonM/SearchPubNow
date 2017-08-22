@@ -4,11 +4,11 @@ import java.sql.Date;
 
 public class EventoBar {
 	
-	private String nomeEvento;
-	private Date dataEvento;
-	private String descricaoEvento;
-	private double valorEvento;
-	private String tipoEvento;
-	private String promocao;
+	private int idevento;
+	private String nomeevento;
+	private Date dataevento;
+	private String descricaoevento;
+	private int valorevento;
+	private int id_bar;
 
 }

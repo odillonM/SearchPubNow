@@ -18,26 +18,26 @@
 	
 	<div class="login-form">
 
-     <h1>Login</h1>
      
-
+     
+	<form action="SAutenticaUsuario" method="post">
 	<div class="form-group ">
 
-       <input type="text" class="form-control" placeholder="Username " id="UserName">
+       <input type="text" class="form-control" placeholder="digite seu usuário" name="login">
 
        <i class="fa fa-user"></i>
     </div>
     
     <div class="form-group log-status">
 
-       <input type="password" class="form-control" placeholder="Password" id="Passwod">
+       <input type="password" class="form-control" placeholder="digite sua senha" name="senha">
 
        <i class="fa fa-lock"></i>
      
 	</div>
      
-		<button type="submit" class="log-btn" >Entrar</button>
-
+		<button type="submit" class="log-btn" value="logar" >Entrar</button>
+	</form>
 </div>
 
 </body>
